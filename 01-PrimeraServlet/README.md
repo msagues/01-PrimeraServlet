@@ -1,11 +1,11 @@
-## CÃ³mo ejecutar nuestra primera servlet ##
+## Cómo ejecutar nuestra primera servlet ##
 
-To run the servlet:
+Para lanzar la servlet:
 
 Right-click on the build.gradle file in Eclipse, Gradle->Quick Tasks Launcher,
-and then type "jettyRun" for the task. 
+and then type "jettyRun" for the task.
 
-To stop the servlet:
+Para parar la servlet:
 
 Right-click on the build.gradle file in Eclipse, Gradle->Quick Tasks Launcher,
 and then type "jettyStop" for the task. 
@@ -23,7 +23,7 @@ to echo to the EchoServlet.
 ## What to Pay Attention to
 
 1. Take a look at the web.xml file in src/main/webapp/WEB-INF/web.xml and
-   see how the routing of requests to the EchoServlet was setup
+   see how the routing of requests to the EchoServlet was setup.
 2. Notice how the EchoServlet extracts the "msg" parameter from the request
 3. Notice that the EchoServlet explicitly sets a content-type for the response
    so that the client will know how to interpret the data in the body of
