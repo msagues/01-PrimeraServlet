@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
  * parameter and echos the parameter value back to the client using
  * the "text/plain" content type.
  * 
- * @author msagues
+ * @author Jules
  *
  */
 public class EchoServlet extends HttpServlet // Servlets should inherit from HttpServlet

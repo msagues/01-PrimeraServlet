@@ -15,7 +15,7 @@ import org.junit.Test;
  * To run this test, right-click on it in Eclipse and select 
  *   "Run As"->"JUnit Test"
  * 
- * @author msagues
+ * @author Jules
  *
  */
 public class EchoServletHttpTest {
